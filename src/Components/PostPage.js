@@ -1,5 +1,5 @@
 import React from 'react'
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 
 
 const PostPage = ({posts, handleDelete }) => {
@@ -14,7 +14,8 @@ const PostPage = ({posts, handleDelete }) => {
               <h2>{post.title}</h2>
               <p className='postData'>{post.datetime}</p>
               <p className='postBody'>{post.body}</p>
-              <button onClick={() => handleDelete(post.id)}>
+              <Link to={`/edit/${id}`}><button className='editButton'>Edit Post</button></Link>
+              <button className="deleteButton" onClick={() => handleDelete(post.id)}>
                 Delete Post
               </button>
             </>

@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "My First Post",
+      "datetime": "July 01, 2021 11:17:36 AM",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequatur expedita, assumenda similique non optio! Modi nesciunt excepturi corrupti atque blanditiis quo nobis, non optio quae possimus illum exercitationem ipsa!"
+    },
+    {
+      "id": "2",
+      "title": "My 2nd Post",
+      "body": "Second Post!",
+      "datetime": "August 31, 2024 2:42:29 PM"
+    },
+    {
+      "id": "3",
+      "title": "My 3rd Post",
+      "datetime": "July 01, 2021 11:17:36 AM",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequatur expedita, assumenda similique non optio! Modi nesciunt excepturi corrupti atque blanditiis quo nobis, non optio quae possimus illum exercitationem ipsa!"
+    },
+    {
+      "id": "4",
+      "title": "Cambodia",
+      "datetime": "August 31, 2024 11:45:03 AM",
+      "body": "The kingdom of wonder\n"
+    },
+    {
+      "id": "3",
+      "title": "Taiwan",
+      "datetime": "August 31, 2024 11:47:37 AM",
+      "body": "Island"
+    }
+  ]
+}
