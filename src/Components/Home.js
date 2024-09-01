@@ -1,11 +1,10 @@
 import React from 'react'
 import Feed from './Feed'
-import { useContext } from 'react';
-import DataContext from '../context/dataContext';
+import { useStoreState } from 'easy-peasy';
 
 
-const Home = () => {
-  const {searchResult, fetchError, isLoading} = useContext(DataContext)
+const Home = ({ isLoading, fetchError }) => {
+  const  searchResult  = useStoreState((state) => state.searchResult);
   return (
     <main className='Home'>
         {isLoading && <p className='statusMsg'>Loading posts...</p>}
@@ -14,5 +13,6 @@ const Home = () => {
     </main>
   )
 }
+
 
 export default Home
