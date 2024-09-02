@@ -2,7 +2,7 @@
   "name": "react-router",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kowloonvuth.github.io/react_blog_deploy_gh",
+  "homepage": "https://kowloonvuth.github.io/blog_deploy_gh",
   "dependencies": {
     "axios": "^1.7.6",
     "date-fns": "^3.6.0",
